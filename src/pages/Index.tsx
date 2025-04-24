@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
@@ -92,7 +91,7 @@ const Index = () => {
         {/* Event Details */}
         <div className="bg-gray-900 p-6 rounded-lg space-y-4">
           <div className="flex items-center gap-3">
-            <MapPin className="w-6 h-6" />
+            <span>📌</span>
             <div>
               <h3 className="font-bold">Locations:</h3>
               <ul className="list-disc list-inside ml-4">
@@ -105,12 +104,12 @@ const Index = () => {
           </div>
           
           <div className="flex items-center gap-3">
-            <Clock className="w-6 h-6" />
+            <span>⏰</span>
             <span>Time: 12PM – 6PM</span>
           </div>
           
           <div className="flex items-center gap-3">
-            <Coffee className="w-6 h-6" />
+            <span>🍔</span>
             <span>Free food and drinks all day</span>
           </div>
         </div>
