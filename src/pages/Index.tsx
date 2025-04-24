@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
+
 const Index = () => {
   const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSecb0IwhcZprKZiDBZzYkZLTNSE4hMKzqsSXQzzEbYGR_--HA/viewform?usp=sharing";
   return <div className="min-h-screen bg-black">
@@ -25,7 +26,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
           <div className="text-left mb-4"> {/* Changed text-center to text-left */}
-            <h2 className="font-bold mb-2 text-left whitespace-nowrap overflow-hidden text-ellipsis text-3xl">
+            <h2 className="font-bold mb-2 text-left whitespace-nowrap overflow-hidden text-3xl">
               The Pathways Tournament 2025 Kicks Off Across 4 Nations!
             </h2>
             <div className="flex items-center space-x-4 text-lg mb-4">
