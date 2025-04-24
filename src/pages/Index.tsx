@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
@@ -10,10 +11,10 @@ const Index = () => {
         <img src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" alt="Pathways Tournament Banner" className="absolute inset-0 w-full h-full object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
         <div className="relative z-10 text-white px-4 w-full bg-black">
-          <div className="max-w-4xl mx-auto text-center"> {/* Changed text-left to text-center */}
-            <div className="mb-8 h-[70vh] flex flex-col justify-center items-center bg-black pt-20"> {/* Changed items-start to items-center */}
+          <div className="max-w-4xl mx-auto text-left"> {/* Changed text-center to text-left */}
+            <div className="mb-8 h-[70vh] flex flex-col justify-center items-start bg-black pt-20"> {/* Changed items-center to items-start */}
               <img src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" alt="Pathways Tournament Banner" className="max-w-full max-h-full object-contain" />
-              <div className="text-center w-full"> {/* Changed text-left to text-center */}
+              <div className="text-left w-full"> {/* Changed text-center to text-left */}
                 
               </div>
             </div>
@@ -24,11 +25,11 @@ const Index = () => {
       {/* Main Content */}
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
-          <div className="text-center mb-4">
+          <div className="text-left mb-4"> {/* Changed text-center to text-left */}
             <h2 className="text-2xl font-bold mb-2 text-left whitespace-nowrap overflow-hidden text-ellipsis">
               The Pathways Tournament 2025 Kicks Off Across 4 Nations!
             </h2>
-            <div className="flex items-center justify-center space-x-4 text-lg mb-4">
+            <div className="flex items-center space-x-4 text-lg mb-4">
               <span className="text-left">Sport.</span>
               <span className="w-2 h-2 rounded-full bg-white" />
               <span className="text-left">Purpose.</span>
@@ -37,17 +38,17 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="flex items-center text-gray-300 mb-4 text-center">
+          <div className="flex items-center text-gray-300 mb-4 text-left"> {/* Changed text-center to text-left */}
             <span>3 minute read</span>
             <span className="mx-2">•</span>
             <span>Written by Pathways Project</span>
           </div>
           
-          <p className="text-xl mb-8">
+          <p className="text-xl mb-8 text-left">
             The Pathways Project and New Balance present the Pathways Tournament 2025 — a powerful fusion of football, culture, and career opportunity.
           </p>
           
-          <p className="text-lg mb-8">
+          <p className="text-lg mb-8 text-left">
             Hosted across Manchester, Cologne, Amsterdam, and Accra, this unique event brings together players, creatives, and recruiters for a full day of football, networking, and next-step discovery.
           </p>
         </div>
