@@ -81,7 +81,7 @@ const Index = () => {
               Top companies will be onsite to meet players and attendees, offering advice, insights, and opportunities.
             </p>
             
-            <h2 className="text-xl font-bold mt-4 mb-2 py-0 my-[15px]">🏢 Participants include:</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2">🏢 Participants include:</h2>
             <p className="text-lg">
               New Balance, Bransmiths Sports Lawyers, Daily Paper, ESPN, 433, UCFB, Tenzing, Double Tap — and many more.
             </p>
