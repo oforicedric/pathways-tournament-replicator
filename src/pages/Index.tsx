@@ -12,11 +12,7 @@ const Index = () => {
             <div className="mb-8 h-[70vh] flex flex-col justify-center items-start bg-black pt-20"> {/* Changed from items-center to items-start */}
               <img src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" alt="Pathways Tournament Banner" className="max-w-full max-h-full object-contain" />
               <div className="text-left w-full"> {/* Added to ensure left alignment */}
-                <h2 className="text-2xl font-bold mb-2 text-left">
-                  The Pathways Tournament 2025
-                  <br />
-                  Kicks Off Across 4 Nations!
-                </h2>
+                
               </div>
             </div>
           </div>
