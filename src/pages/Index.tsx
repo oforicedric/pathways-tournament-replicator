@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { CalendarDays, MapPin, Clock, Coffee, Flag, Shoe } from "lucide-react";
+import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
 
 const Index = () => {
   return <div className="min-h-screen bg-black">
