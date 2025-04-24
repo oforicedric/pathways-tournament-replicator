@@ -9,10 +9,10 @@ const Index = () => {
         <img src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" alt="Pathways Tournament Banner" className="absolute inset-0 w-full h-full object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
         <div className="relative z-10 text-white px-4 w-full bg-black">
-          <div className="max-w-4xl mx-auto text-left"> {/* Changed from text-center to text-left */}
-            <div className="mb-8 h-[70vh] flex flex-col justify-center items-start bg-black pt-20"> {/* Changed from items-center to items-start */}
+          <div className="max-w-4xl mx-auto text-center"> {/* Changed text-left to text-center */}
+            <div className="mb-8 h-[70vh] flex flex-col justify-center items-center bg-black pt-20"> {/* Changed items-start to items-center */}
               <img src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" alt="Pathways Tournament Banner" className="max-w-full max-h-full object-contain" />
-              <div className="text-left w-full"> {/* Added to ensure left alignment */}
+              <div className="text-center w-full"> {/* Changed text-left to text-center */}
                 
               </div>
             </div>
