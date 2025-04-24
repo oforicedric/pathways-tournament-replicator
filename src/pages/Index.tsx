@@ -1,27 +1,16 @@
-
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-black">
+  return <div className="min-h-screen bg-black">
       {/* Hero Section */}
       <div className="relative h-[70vh] bg-black flex items-center justify-center">
         {/* Background image */}
-        <img 
-          src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" 
-          alt="Pathways Tournament Banner"
-          className="absolute inset-0 w-full h-full object-cover object-center"
-        />
+        <img src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" alt="Pathways Tournament Banner" className="absolute inset-0 w-full h-full object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
         <div className="relative z-10 text-white px-4 w-full bg-black">
           <div className="max-w-4xl mx-auto text-left"> {/* Changed from text-center to text-left */}
             <div className="mb-8 h-[70vh] flex flex-col justify-center items-start bg-black pt-20"> {/* Changed from items-center to items-start */}
-              <img 
-                src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" 
-                alt="Pathways Tournament Banner"
-                className="max-w-full max-h-full object-contain"
-              />
+              <img src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" alt="Pathways Tournament Banner" className="max-w-full max-h-full object-contain" />
               <div className="text-left w-full"> {/* Added to ensure left alignment */}
                 <h2 className="text-2xl font-bold mb-2 text-left">
                   The Pathways Tournament 2025
@@ -38,7 +27,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
           <div className="text-center mb-4">
-            <h2 className="text-2xl font-bold mb-2">
+            <h2 className="text-2xl font-bold mb-2 text-left">
               The Pathways Tournament 2025
               <br />
               Kicks Off Across 4 Nations!
@@ -147,8 +136,6 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
