@@ -15,18 +15,13 @@ const Index = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
         <div className="relative z-10 text-white px-4 w-full">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="font-grotesk text-5xl md:text-7xl font-bold mb-4 text-left">
-              The Pathways Tournament 2025
-              <br />
-              Kicks Off Across 4 Nations!
-            </h1>
-            <div className="flex items-center space-x-4 text-lg mb-6 text-left">
-              <span>Sport.</span>
-              <span className="w-2 h-2 rounded-full bg-white" />
-              <span>Purpose.</span>
-              <span className="w-2 h-2 rounded-full bg-white" />
-              <span>Opportunity.</span>
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="mb-8 h-[70vh] flex flex-col justify-center items-center">
+              <img 
+                src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" 
+                alt="Pathways Tournament Banner"
+                className="max-w-full max-h-full object-contain"
+              />
             </div>
           </div>
         </div>
@@ -35,7 +30,22 @@ const Index = () => {
       {/* Main Content */}
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
-          <div className="flex items-center text-gray-300 mb-4 text-left">
+          <div className="text-center mb-4">
+            <h2 className="text-2xl font-bold mb-2">
+              The Pathways Tournament 2025
+              <br />
+              Kicks Off Across 4 Nations!
+            </h2>
+            <div className="flex items-center justify-center space-x-4 text-lg mb-4">
+              <span>Sport.</span>
+              <span className="w-2 h-2 rounded-full bg-white" />
+              <span>Purpose.</span>
+              <span className="w-2 h-2 rounded-full bg-white" />
+              <span>Opportunity.</span>
+            </div>
+          </div>
+
+          <div className="flex items-center text-gray-300 mb-4 text-center">
             <span>3 minute read</span>
             <span className="mx-2">•</span>
             <span>Written by Pathways Project</span>
