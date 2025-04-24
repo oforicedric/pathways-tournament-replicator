@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
 
@@ -15,7 +16,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
         <div className="relative z-10 text-white px-4 w-full bg-black">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="mb-8 h-[70vh] flex flex-col justify-center items-center bg-black">
+            <div className="mb-8 h-[70vh] flex flex-col justify-center items-center bg-black pt-20">
               <img 
                 src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" 
                 alt="Pathways Tournament Banner"
