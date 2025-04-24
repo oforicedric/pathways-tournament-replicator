@@ -55,7 +55,7 @@ const Index = () => {
         {/* What to Expect Section */}
         <div className="space-y-12 mb-12">
           <section>
-            <h2 className="text-2xl font-bold mb-4 flex items-center">
+            <h2 className="font-bold mb-4 flex items-center text-xl">
               ⚽ What to Expect
             </h2>
             <p className="text-lg">
@@ -64,7 +64,7 @@ const Index = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold mb-4">
+            <h2 className="font-bold mb-4 text-xl">
               🎶 Off the Pitch
             </h2>
             <p className="text-lg">
@@ -74,14 +74,14 @@ const Index = () => {
 
           {/* Career Stalls Section */}
           <section>
-            <h2 className="text-2xl font-bold mb-4">
+            <h2 className="font-bold mb-4 text-xl">
               💼 Career Stalls – Real Access, Real Connections
             </h2>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 py-0 my-[3px]">
               Top companies will be onsite to meet players and attendees, offering advice, insights, and opportunities.
             </p>
             
-            <h2 className="text-xl font-bold mt-4 mb-2">🏢Participants include:</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2 py-0 my-[15px]">🏢 Participants include:</h2>
             <p className="text-lg">
               New Balance, Bransmiths Sports Lawyers, Daily Paper, ESPN, 433, UCFB, Tenzing, Double Tap — and many more.
             </p>
