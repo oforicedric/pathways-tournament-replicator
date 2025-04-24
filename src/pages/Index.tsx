@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
 
@@ -6,18 +7,27 @@ const Index = () => {
     <div className="min-h-screen bg-black">
       {/* Hero Section */}
       <div className="relative h-[70vh] bg-black flex items-center justify-center">
+        {/* Background image */}
+        <img 
+          src="/lovable-uploads/c50de547-acb6-4fa8-bccd-30b8fbc51d35.png" 
+          alt="Pathways Tournament Banner"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
-        <div className="relative z-10 text-center text-white px-4">
-          <h1 className="font-grotesk text-5xl md:text-7xl font-bold mb-4">
-            The Pathways Tournament 2025
-          </h1>
-          <p className="text-2xl md:text-3xl mb-2">Kicks Off Across 4 Nations!</p>
-          <div className="flex items-center justify-center space-x-4 text-lg">
-            <span>Sport.</span>
-            <span className="w-2 h-2 rounded-full bg-white" />
-            <span>Purpose.</span>
-            <span className="w-2 h-2 rounded-full bg-white" />
-            <span>Opportunity.</span>
+        <div className="relative z-10 text-white px-4 w-full">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="font-grotesk text-5xl md:text-7xl font-bold mb-4 text-left">
+              The Pathways Tournament 2025
+              <br />
+              Kicks Off Across 4 Nations!
+            </h1>
+            <div className="flex items-center space-x-4 text-lg mb-6 text-left">
+              <span>Sport.</span>
+              <span className="w-2 h-2 rounded-full bg-white" />
+              <span>Purpose.</span>
+              <span className="w-2 h-2 rounded-full bg-white" />
+              <span>Opportunity.</span>
+            </div>
           </div>
         </div>
       </div>
@@ -25,7 +35,7 @@ const Index = () => {
       {/* Main Content */}
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
-          <div className="flex items-center text-gray-300 mb-4">
+          <div className="flex items-center text-gray-300 mb-4 text-left">
             <span>3 minute read</span>
             <span className="mx-2">•</span>
             <span>Written by Pathways Project</span>
@@ -56,7 +66,7 @@ const Index = () => {
               🎶 Off the Pitch
             </h2>
             <p className="text-lg">
-              Vibes all day with live DJs, great food, drinks, exclusive giveaways, and immersive brand activations.
+              🎧 Vibes all day with live DJs, 🍕 great food, 🥤 drinks, 🎁 exclusive giveaways, and 🎪 immersive brand activations.
             </p>
           </section>
 
@@ -68,7 +78,7 @@ const Index = () => {
               Top companies will be onsite to meet players and attendees, offering advice, insights, and opportunities.
             </p>
             <p className="text-lg font-medium">
-              Confirmed participants include:
+              🏢 Participants include:
             </p>
             <p className="text-lg">
               New Balance, Bransmiths Sports Lawyers, Daily Paper, ESPN, 433, UCFB, Tenzing, Double Tap — and many more.
@@ -109,10 +119,10 @@ const Index = () => {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-black hover:bg-gray-200">
-              Sign up as an academy drop out
+              Sign up to play
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-              Sign up as an influencer
+              Influencer sign up
             </Button>
           </div>
           <div className="mt-8 text-gray-400">
