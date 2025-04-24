@@ -4,7 +4,7 @@ import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
 
 const Index = () => {
   const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSecb0IwhcZprKZiDBZzYkZLTNSE4hMKzqsSXQzzEbYGR_--HA/viewform?usp=sharing";
-  return <div className="min-h-screen bg-black">
+  return <div className="min-h-screen bg-black font-sans">
       {/* Hero Section */}
       <div className="relative h-[70vh] bg-black flex items-center justify-center">
         {/* Background image */}
