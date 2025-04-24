@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
+import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
 
 const Index = () => {
   return <div className="min-h-screen bg-black">
@@ -95,10 +95,10 @@ const Index = () => {
             <div>
               <h3 className="font-bold">Locations:</h3>
               <ul className="list-disc list-inside ml-4">
-                <li>Germany: Strassenkicker Base, Cologne - Saturday 14th June</li>
-                <li>Netherlands: Sportpark FC Amsterdam - Sunday 15th June</li>
-                <li>UK: Powerleague Nicholls, Manchester - Sunday 22nd June</li>
-                <li>Ghana: AIS Sportcomplex, Accra - Saturday 28th June</li>
+                <li>🇩🇪 Germany: Strassenkicker Base, Cologne - Saturday 14th June</li>
+                <li>🇳🇱 Netherlands: Sportpark FC Amsterdam - Sunday 15th June</li>
+                <li>🇬🇧 UK: Powerleague Nicholls, Manchester - Sunday 22nd June</li>
+                <li>🇬🇭 Ghana: AIS Sportcomplex, Accra - Saturday 28th June</li>
               </ul>
             </div>
           </div>
