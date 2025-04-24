@@ -25,8 +25,8 @@ const Index = () => {
       {/* Main Content */}
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
-          <div className="text-left mb-4"> {/* Changed text-center to text-left */}
-            <h2 className="font-bold mb-2 text-left whitespace-nowrap overflow-hidden text-3xl">
+          <div className="text-left mb-4">
+            <h2 className="font-bold mb-2 text-left text-3xl truncate">
               The Pathways Tournament 2025 Kicks Off Across 4 Nations!
             </h2>
             <div className="flex items-center space-x-4 text-lg mb-4">
@@ -137,4 +137,5 @@ const Index = () => {
       </div>
     </div>;
 };
+
 export default Index;
