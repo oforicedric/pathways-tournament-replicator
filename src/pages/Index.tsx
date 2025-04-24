@@ -26,7 +26,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
           <div className="text-left mb-4">
-            <h2 className="font-bold mb-2 text-left text-3xl truncate">
+            <h2 className="font-bold mb-2 text-left text-3xl truncate whitespace-nowrap">
               The Pathways Tournament 2025 Kicks Off Across 4 Nations!
             </h2>
             <div className="flex items-center space-x-4 text-lg mb-4">
@@ -56,7 +56,7 @@ const Index = () => {
         {/* What to Expect Section */}
         <div className="space-y-12 mb-12">
           <section>
-            <h2 className="font-bold mb-4 flex items-center text-xl">
+            <h2 className="font-bold mb-4 flex items-center text-xl truncate whitespace-nowrap">
               ⚽ What to Expect
             </h2>
             <p className="text-lg">
@@ -65,7 +65,7 @@ const Index = () => {
           </section>
 
           <section>
-            <h2 className="font-bold mb-4 text-xl">
+            <h2 className="font-bold mb-4 text-xl truncate whitespace-nowrap">
               🎶 Off the Pitch
             </h2>
             <p className="text-lg">
@@ -75,14 +75,14 @@ const Index = () => {
 
           {/* Career Stalls Section */}
           <section>
-            <h2 className="font-bold mb-4 text-xl">
+            <h2 className="font-bold mb-4 text-xl truncate whitespace-nowrap">
               💼 Career Stalls – Real Access, Real Connections
             </h2>
             <p className="text-lg mb-4 py-0 my-[3px]">
               Top companies will be onsite to meet players and attendees, offering advice, insights, and opportunities.
             </p>
             
-            <h2 className="text-xl font-bold mt-4 mb-2">🏢 Participants include:</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2 truncate whitespace-nowrap">🏢 Participants include:</h2>
             <p className="text-lg">
               New Balance, Bransmiths Sports Lawyers, Daily Paper, ESPN, 433, UCFB, Tenzing, Double Tap — and many more.
             </p>
