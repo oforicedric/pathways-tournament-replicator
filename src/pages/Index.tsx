@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
+
 const Index = () => {
   return <div className="min-h-screen bg-black">
       {/* Hero Section */}
@@ -23,10 +24,8 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
           <div className="text-center mb-4">
-            <h2 className="text-2xl font-bold mb-2 text-left">
-              The Pathways Tournament 2025
-              <br />
-              Kicks Off Across 4 Nations!
+            <h2 className="text-2xl font-bold mb-2 text-left whitespace-nowrap overflow-hidden text-ellipsis">
+              The Pathways Tournament 2025 Kicks Off Across 4 Nations!
             </h2>
             <div className="flex items-center justify-center space-x-4 text-lg mb-4">
               <span className="text-left">Sport.</span>
