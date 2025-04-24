@@ -25,7 +25,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
           <div className="text-left mb-4"> {/* Changed text-center to text-left */}
-            <h2 className="text-2xl font-bold mb-2 text-left whitespace-nowrap overflow-hidden text-ellipsis">
+            <h2 className="font-bold mb-2 text-left whitespace-nowrap overflow-hidden text-ellipsis text-3xl">
               The Pathways Tournament 2025 Kicks Off Across 4 Nations!
             </h2>
             <div className="flex items-center space-x-4 text-lg mb-4">
