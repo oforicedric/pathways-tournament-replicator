@@ -126,13 +126,13 @@ const Index = () => {
             This is more than a tournament. It's a pathway to what's next. Come for the football, leave with a future.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-black hover:bg-gray-200" onClick={() => window.open(formUrl, '_blank')}>
+            <Button size="lg" className="bg-white text-black" onClick={() => window.open(formUrl, '_blank')}>
               Sign up to play
             </Button>
-            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white hover:bg-white/10 text-stone-950">
+            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">
               Influencer sign up
             </Button>
-            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white hover:bg-white/10 text-stone-950">
+            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">
               Join Waitlist
             </Button>
           </div>
