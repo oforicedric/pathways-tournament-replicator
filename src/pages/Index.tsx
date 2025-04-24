@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
 
@@ -94,10 +95,10 @@ const Index = () => {
             <div>
               <h3 className="font-bold">Locations:</h3>
               <ul className="list-disc list-inside ml-4">
-                <li>UK: Powerleague Nicholls, Manchester</li>
-                <li>Germany: Strassenkicker Base, Cologne</li>
-                <li>Netherlands: Sportpark FC Amsterdam</li>
-                <li>Ghana: AIS Sportcomplex, Accra</li>
+                <li>Germany: Strassenkicker Base, Cologne - Saturday 14th June</li>
+                <li>Netherlands: Sportpark FC Amsterdam - Sunday 15th June</li>
+                <li>UK: Powerleague Nicholls, Manchester - Sunday 22nd June</li>
+                <li>Ghana: AIS Sportcomplex, Accra - Saturday 28th June</li>
               </ul>
             </div>
           </div>
