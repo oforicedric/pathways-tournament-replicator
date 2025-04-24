@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
+
 const Index = () => {
   return <div className="min-h-screen bg-black">
       {/* Hero Section */}
@@ -127,7 +128,9 @@ const Index = () => {
             <Button size="lg" className="bg-white text-black hover:bg-gray-200">
               Sign up to play
             </Button>
-            
+            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              Influencer sign up
+            </Button>
           </div>
           <div className="mt-8 text-gray-400">
             @joinpathways | @newbalancefootball
@@ -136,4 +139,5 @@ const Index = () => {
       </div>
     </div>;
 };
+
 export default Index;
