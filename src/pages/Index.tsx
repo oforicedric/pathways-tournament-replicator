@@ -1,11 +1,125 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Button } from "@/components/ui/button";
+import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <div className="relative h-[70vh] bg-black flex items-center justify-center">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
+        <div className="relative z-10 text-center text-white px-4">
+          <h1 className="font-grotesk text-5xl md:text-7xl font-bold mb-4">
+            The Pathways Tournament 2025
+          </h1>
+          <p className="text-2xl md:text-3xl mb-2">Kicks Off Across 4 Nations!</p>
+          <div className="flex items-center justify-center space-x-4 text-lg">
+            <span>Sport.</span>
+            <span className="w-2 h-2 rounded-full bg-white" />
+            <span>Purpose.</span>
+            <span className="w-2 h-2 rounded-full bg-white" />
+            <span>Opportunity.</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <div className="mb-8">
+          <div className="flex items-center text-gray-600 mb-4">
+            <span>3 minute read</span>
+            <span className="mx-2">•</span>
+            <span>Written by Pathways Project</span>
+          </div>
+          
+          <p className="text-xl mb-8">
+            The Pathways Project and New Balance present the Pathways Tournament 2025 — a powerful fusion of football, culture, and career opportunity.
+          </p>
+          
+          <p className="text-lg mb-8">
+            Hosted across Manchester, Cologne, Amsterdam, and Accra, this unique event brings together players, creatives, and recruiters for a full day of football, networking, and next-step discovery.
+          </p>
+        </div>
+
+        {/* What to Expect Section */}
+        <div className="space-y-12 mb-12">
+          <section>
+            <h2 className="text-2xl font-bold mb-4 flex items-center">
+              ⚽ What to Expect
+            </h2>
+            <p className="text-lg">
+              This isn't just a tournament — it's a full cultural moment. Each team features an influencer or cultural personality playing alongside the squad, bringing extra energy to the pitch.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold mb-4">
+              🎶 Off the Pitch
+            </h2>
+            <p className="text-lg">
+              Vibes all day with live DJs, great food, drinks, exclusive giveaways, and immersive brand activations.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold mb-4">
+              💼 Career Stalls – Real Access, Real Connections
+            </h2>
+            <p className="text-lg mb-4">
+              Top companies will be onsite to meet players and attendees, offering advice, insights, and opportunities.
+            </p>
+            <p className="text-lg font-medium">
+              Confirmed participants include:
+            </p>
+            <p className="text-lg">
+              New Balance, Bransmiths Sports Lawyers, Daily Paper, ESPN, 433, UCFB, Tenzing, Double Tap — and many more.
+            </p>
+          </section>
+        </div>
+
+        {/* Event Details */}
+        <div className="bg-gray-100 p-6 rounded-lg space-y-4">
+          <div className="flex items-center gap-3">
+            <MapPin className="w-6 h-6" />
+            <div>
+              <h3 className="font-bold">Locations:</h3>
+              <ul className="list-disc list-inside ml-4">
+                <li>UK: Powerleague Nicholls, Manchester</li>
+                <li>Germany: Strassenkicker Base, Cologne</li>
+                <li>Netherlands: Sportpark FC Amsterdam</li>
+                <li>Ghana: AIS Sportcomplex, Accra</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="flex items-center gap-3">
+            <Clock className="w-6 h-6" />
+            <span>Time: 12PM – 6PM</span>
+          </div>
+          
+          <div className="flex items-center gap-3">
+            <Coffee className="w-6 h-6" />
+            <span>Free food and drinks all day</span>
+          </div>
+        </div>
+
+        {/* CTA Section */}
+        <div className="mt-12 text-center">
+          <p className="text-xl mb-8">
+            This is more than a tournament. It's a pathway to what's next. Come for the football, leave with a future.
+          </p>
+          <div className="flex flex-col md:flex-row gap-4 justify-center">
+            <Button size="lg" className="bg-black text-white hover:bg-gray-800">
+              Sign up as an academy drop out
+            </Button>
+            <Button size="lg" variant="outline" className="border-black text-black hover:bg-gray-100">
+              Sign up as an influencer
+            </Button>
+          </div>
+          <div className="mt-8 text-gray-600">
+            @joinpathways | @newbalancefootball
+          </div>
+        </div>
       </div>
     </div>
   );
