@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
-
 const Index = () => {
   const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSecb0IwhcZprKZiDBZzYkZLTNSE4hMKzqsSXQzzEbYGR_--HA/viewform?usp=sharing";
   return <div className="min-h-screen bg-black">
@@ -126,15 +125,11 @@ const Index = () => {
             This is more than a tournament. It's a pathway to what's next. Come for the football, leave with a future.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-black" onClick={() => window.open(formUrl, '_blank')}>
-              Sign up to play
-            </Button>
+            
             <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">
               Influencer sign up
             </Button>
-            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">
-              Join Waitlist
-            </Button>
+            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">Influencer Sign up</Button>
           </div>
           <div className="mt-8 text-gray-400">
             @joinpathways | @newbalancefootball
@@ -143,5 +138,4 @@ const Index = () => {
       </div>
     </div>;
 };
-
 export default Index;
