@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
-
 const Index = () => {
   const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSecb0IwhcZprKZiDBZzYkZLTNSE4hMKzqsSXQzzEbYGR_--HA/viewform?usp=sharing";
   return <div className="min-h-screen bg-black">
@@ -81,12 +80,8 @@ const Index = () => {
             <p className="text-lg mb-4">
               Top companies will be onsite to meet players and attendees, offering advice, insights, and opportunities.
             </p>
-            <p className="text-lg font-medium">
-              🏢 Participants include:
-            </p>
-            <h2 className="text-xl font-bold mt-4 mb-2">
-              Participants include:
-            </h2>
+            
+            <h2 className="text-xl font-bold mt-4 mb-2">🏢Participants include:</h2>
             <p className="text-lg">
               New Balance, Bransmiths Sports Lawyers, Daily Paper, ESPN, 433, UCFB, Tenzing, Double Tap — and many more.
             </p>
