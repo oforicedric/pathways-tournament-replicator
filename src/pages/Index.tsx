@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { CalendarDays, MapPin, Clock, Coffee, Flag } from "lucide-react";
+import { CalendarDays, MapPin, Clock, Coffee, Flag, Shoe } from "lucide-react";
 
 const Index = () => {
   return <div className="min-h-screen bg-black">
@@ -112,6 +112,11 @@ const Index = () => {
             <span>🍔</span>
             <span>Free food and drinks all day</span>
           </div>
+          
+          <div className="flex items-center gap-3">
+            <span>👟</span>
+            <span>Free New Balance Gear</span>
+          </div>
         </div>
 
         {/* CTA Section */}
@@ -134,4 +139,5 @@ const Index = () => {
       </div>
     </div>;
 };
+
 export default Index;
