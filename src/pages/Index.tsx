@@ -127,7 +127,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             
             <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">Player Sign Up</Button>
-            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">Influencer Sign up</Button>
+            <Button size="lg" variant="outline" onClick={() => window.open(formUrl, '_blank')} className="border-white text-stone-950">Influencer Sign Up</Button>
           </div>
           <div className="mt-8 text-gray-400">
             @joinpathways | @newbalancefootball
