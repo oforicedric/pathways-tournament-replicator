@@ -30,9 +30,9 @@ const Index = () => {
             <div className="flex items-center justify-center space-x-4 text-lg mb-4">
               <span className="text-left">Sport.</span>
               <span className="w-2 h-2 rounded-full bg-white" />
-              <span>Purpose.</span>
+              <span className="text-left">Purpose.</span>
               <span className="w-2 h-2 rounded-full bg-white" />
-              <span>Opportunity.</span>
+              <span className="text-left">Opportunity.</span>
             </div>
           </div>
 
