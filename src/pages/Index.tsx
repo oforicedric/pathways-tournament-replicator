@@ -1,10 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { CalendarDays, MapPin, Clock, Coffee } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black">
       {/* Hero Section */}
       <div className="relative h-[70vh] bg-black flex items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40" />
@@ -24,9 +23,9 @@ const Index = () => {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-4xl mx-auto px-4 py-12 bg-black text-white">
         <div className="mb-8">
-          <div className="flex items-center text-gray-600 mb-4">
+          <div className="flex items-center text-gray-300 mb-4">
             <span>3 minute read</span>
             <span className="mx-2">•</span>
             <span>Written by Pathways Project</span>
@@ -78,7 +77,7 @@ const Index = () => {
         </div>
 
         {/* Event Details */}
-        <div className="bg-gray-100 p-6 rounded-lg space-y-4">
+        <div className="bg-gray-900 p-6 rounded-lg space-y-4">
           <div className="flex items-center gap-3">
             <MapPin className="w-6 h-6" />
             <div>
@@ -109,14 +108,14 @@ const Index = () => {
             This is more than a tournament. It's a pathway to what's next. Come for the football, leave with a future.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-black text-white hover:bg-gray-800">
+            <Button size="lg" className="bg-white text-black hover:bg-gray-200">
               Sign up as an academy drop out
             </Button>
-            <Button size="lg" variant="outline" className="border-black text-black hover:bg-gray-100">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
               Sign up as an influencer
             </Button>
           </div>
-          <div className="mt-8 text-gray-600">
+          <div className="mt-8 text-gray-400">
             @joinpathways | @newbalancefootball
           </div>
         </div>
